@@ -1,0 +1,23 @@
+.example-card {
+    max-width: 400px;
+  }
+
+button{
+  font-family: cursive;
+  font-size: large;
+}
+
+@media (min-width: 320px) { 
+   mat-form-field{
+     width: 100px;
+   }
+}
+@media (min-width: 1070px) { 
+  mat-form-field{
+    width: 200px;
+  }
+  form{
+    margin-left: 50px;
+  }
+}
+
